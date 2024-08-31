@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Fondo general */
+  color: #333; /* Color de texto general */
+}
+
+header, footer {
+  background-color: #005f73; /* Fondo del header y footer */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+.App {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #0077b6; /* Fondo de botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+  background-color: #023e8a; /* Fondo del botón en hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff; /* Fondo de cada ítem */
+  border-radius: 5px;
+  margin-bottom: 0.5rem; /* Espacio entre ítems */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+li:hover {
+  background-color: #f1f1f1; /* Fondo en hover para ítems de la lista */
+}
+
