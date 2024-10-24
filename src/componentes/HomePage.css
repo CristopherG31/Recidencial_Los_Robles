@@ -1,0 +1,78 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #b1a0a0; /* Cambia esto según el diseño que desees */
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Espacia los elementos */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo */
+    margin-bottom: 20px; /* Espacio entre el encabezado y el resto */
+}
+
+.hamburger-menu {
+    margin-right: auto; /* Empuja el título hacia el centro */
+}
+
+.hamburger-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    margin: 0; /* Elimina márgenes para alineación */
+    font-size: 24px;
+    flex-grow: 1; /* Permite que el título ocupe espacio disponible */
+    text-align: center; /* Centra el texto del título */
+}
+
+.button-container {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+}
+
+.service-button, .resident-button {
+    margin-left: 10px; /* Espacio entre los botones */
+    padding: 10px 20px;
+    background-color: rgb(235, 235, 235); /* Cambia esto según el diseño que desees */
+    color: rgb(17, 17, 17);
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+}
+
+.service-button:hover, .resident-button:hover {
+    background-color: #0056b3; /* Cambia esto según el diseño que desees */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Cambia el ancho según tu diseño */
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #28a745; /* Cambia esto según el diseño que desees */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #218838; /* Cambia esto según el diseño que desees */
+}
